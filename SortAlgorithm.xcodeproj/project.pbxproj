@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F9F2827F24D6AAF0002A08D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F2827E24D6AAF0002A08D4 /* main.m */; };
+		F9F2828724D6B4D3002A08D4 /* mergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = F9F2828624D6B4D3002A08D4 /* mergeSort.c */; };
+		F9F2828A24D6B6D9002A08D4 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = F9F2828924D6B6D9002A08D4 /* QuickSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		F9F2827B24D6AAF0002A08D4 /* SortAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F2827E24D6AAF0002A08D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9F2828524D6B4D3002A08D4 /* mergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSort.h; sourceTree = "<group>"; };
+		F9F2828624D6B4D3002A08D4 /* mergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergeSort.c; sourceTree = "<group>"; };
+		F9F2828824D6B6D9002A08D4 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		F9F2828924D6B6D9002A08D4 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				F9F2827E24D6AAF0002A08D4 /* main.m */,
+				F9F2828524D6B4D3002A08D4 /* mergeSort.h */,
+				F9F2828624D6B4D3002A08D4 /* mergeSort.c */,
+				F9F2828824D6B6D9002A08D4 /* QuickSort.h */,
+				F9F2828924D6B6D9002A08D4 /* QuickSort.c */,
 			);
 			path = SortAlgorithm;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F2828724D6B4D3002A08D4 /* mergeSort.c in Sources */,
+				F9F2828A24D6B6D9002A08D4 /* QuickSort.c in Sources */,
 				F9F2827F24D6AAF0002A08D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
